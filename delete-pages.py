@@ -55,5 +55,5 @@ if __name__ == "__main__":
     site = mwclient.Site(MEDIA_WIKI_URL, path='/')
     site.login("username", "password")  # Assumes these are corect.
 
-    # delete_unused_files(site)
     # delete_pages_in_category(site)
+    # delete_unused_files(site)
