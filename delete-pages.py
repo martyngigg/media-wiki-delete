@@ -50,7 +50,7 @@ def __delete_page(page):
 
 
 if __name__ == "__main__":
-    MEDIA_WIKI_URL = 'www.mantidproject.org'
+    MEDIA_WIKI_URL = 'FILL IN URL'
 
     site = mwclient.Site(MEDIA_WIKI_URL, path='/')
     site.login("username", "password")  # Assumes these are corect.
